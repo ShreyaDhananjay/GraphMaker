@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/graphstyle.css">
+    <title>Line Graph Specifications</title>
+</head>
+<body>
+    <center>
+        <div class="menu">
+            <h2>GraphMaker</h2>
+            <h3>Make your own graph in 3 simple steps!</h3>
+            <br>
+            <h4><a href="graphmain.html" style="color: white;">Home</a></h4>
+        </div>
+        <br><br>
+        <div class="content-section" style="width:50%">
+            <br>
+            <h3>Step 2: Enter the data</h3>
+            <br>
+            <table>
+            <form action="graph.html" method="GET" id="lineform">
+                <tr>
+                    <th>Graph Title:</th>
+                    <td colspan="2"><input name="title" type="text" width="100px;"></td>
+                </tr>
+                <tr>
+                    <th>Graph Type:</th>
+                    <td colspan="2"><input name="type" type="text" id="type" value="Line" width="100px;" readonly></td>
+                </tr>
+                <tr>
+                    <th>X-axis label:</th>
+                    <td colspan="2"><input name="xaxis" type="text" width="100px;"></td>
+                </tr>
+                <tr>
+                    <th>Y-axis label</th>
+                    <td colspan="2"><input name="yaxis" type="text" width="100px;"></td>
+                </tr>
+                <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                <td colspan="3"><center><h4>Enter a maximum of 9 numeric data points:</h4></center></td>
+                </tr>
+                <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                <tr>
+                    <th></th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+                    <th><label>Point 1</label></th>
+                    <td><input name="data1" type="number" width="100px;"></td>
+                    <td><input name="ht1" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 2</label></th>
+                    <td><input name="data2" type="number" width="100px;"></td>
+                    <td><input name="ht2" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 3</label></th>
+                    <td><input name="data3" type="number" width="100px;"></td>
+                    <td><input name="ht3" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 4</label></th>
+                    <td><input name="data4" type="number" width="100px;"></td>
+                    <td><input name="ht4" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 5</label></th>
+                    <td><input name="data5" type="number" width="100px;"></td>
+                    <td><input name="ht5" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 6</label></th>
+                    <td><input name="data6" type="number" width="100px;"></td>
+                    <td><input name="ht6" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 7</label></th>
+                    <td><input name="data7" type="number" width="100px;"></td>
+                    <td><input name="ht7" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 8</label></th>
+                    <td><input name="data8" type="number" width="100px;"></td>
+                    <td><input name="ht8" type="number" width="50px;"></td>
+                </tr>
+                <tr>
+                    <th><label>Point 9</label></th>
+                    <td><input name="data9" type="number" width="100px;"></td>
+                    <td><input name="ht9" type="number" width="50px;"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                <td colspan="3"><center><input id="submit" type="submit" value="Create" class="button"><center></td>
+                </tr>
+            </form>
+            </table>
+        </div>
+    </center>
+</body>
+</html>
